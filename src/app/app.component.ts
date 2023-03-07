@@ -8,7 +8,7 @@ import { BlogservicesService } from './services/blogservices.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Blog Hub';
+  title = "Innu's Blog Hub";
   blogs: Blog[] = [];
   addBlog = false;
 

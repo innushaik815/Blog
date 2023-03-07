@@ -9,7 +9,7 @@ import { Blog } from '../model/blog';
 export class HeaderComponent {
   blogs: Blog[] = [];
   @Input()
-  title: string = 'Blog Hub';
+  title: string = "Innu's Blog";
 
   @Output()
   addViewSelected: EventEmitter<boolean> = new EventEmitter<boolean>(false);
